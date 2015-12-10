@@ -28,7 +28,7 @@ int main()	{
 
 	//Rotation matrix (robot)
 	Matrix2f R_o_b;	R_o_b << cos(theta), -sin(theta),
-							sin(theta), cos(theta);
+				sin(theta), cos(theta);
 
 	//Transformation matrix
 	Matrix3f T_o_b;
@@ -52,7 +52,7 @@ int main()	{
 
 	//Rotation matrix (robot)
 	Matrix2f R_b_s;	R_b_s << cos(beta), -sin(beta),
-							sin(beta), cos(beta);
+				sin(beta), cos(beta);
 
 	//Transformation matrix
 	Matrix3f T_b_s;
