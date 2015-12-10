@@ -6,8 +6,6 @@
 using namespace std;
 using namespace Eigen;
 
-IOFormat CleanFmt(3);
-
 float degree_to_rad(float angle_degree) {
     float angle_rad;
     angle_rad = (angle_degree/360)*2*M_PI;

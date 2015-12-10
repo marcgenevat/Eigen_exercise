@@ -19,7 +19,7 @@ int main()	{
 	//Point of interest
 	Vector3f q_s(12.0, 3.0, 1.0);
 
-	cout << "Point of interest: \n" << q_s << endl;
+	cout << "\nPoint of interest (q): \n" << q_s << endl;
 
 /*********************************ROBOT*********************************/
 	//Angle
