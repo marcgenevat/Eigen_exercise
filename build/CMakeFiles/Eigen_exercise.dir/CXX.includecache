@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcgenevat/catkin_ws/src/Eigen_exercise/src/eigen_exercise.cpp
+iostream
+-
+eigen3/Eigen/Geometry
+-
+math.h
+-
+cstdio
+-
+
